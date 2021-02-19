@@ -857,11 +857,12 @@ h3, .fas{
         display: block;
     }
     .home-image{
-        width: 95%;
+        width: 100%;
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 700px;
+        height: 500px;
+        margin-left: 200px;
         left: -10px;
         
         /* display: none; */
@@ -911,8 +912,8 @@ h3, .fas{
     }
      .end-footer{
          
-         top: 50%;
-         height: 90vh;
+         top: 55%;
+         height: 110vh;
          display: block;
          width: 100%;
          position: relative;
