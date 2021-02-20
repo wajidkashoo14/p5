@@ -855,11 +855,12 @@ h3, .fas{
         width: 100%;
         }
     .home-image{
-        width: 100%;
+        
         background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
         height: 500px;
+        z-index:-1;
     }
 
     .header .sidemenu nav a{
@@ -968,7 +969,7 @@ h3, .fas{
          width: 99%;
      }
      .hero-text{
-         margin-left: -20px !important;
+         margin-left: -50px !important;
      }
     
 
