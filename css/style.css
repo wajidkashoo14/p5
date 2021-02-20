@@ -850,22 +850,16 @@ h3, .fas{
 @media all and (max-width: 480px) { 
     body{
         overflow-x: hidden !important;
-        width: 100%;
-    }
+      }
     .header .sidemenu{
         width: 100%;
-        display: block;
-    }
+        }
     .home-image{
         width: 100%;
-        background-position: left;
+        background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
         height: 500px;
-        margin-left: 100px;
-        left: -10px;
-        
-        /* display: none; */
     }
 
     .header .sidemenu nav a{
@@ -881,17 +875,11 @@ h3, .fas{
         display: block !important;
         justify-content: center;
         height: 150vh;
-        /* height: fit-content;
-        width: fit-content; */
-        /* background-color: #0093E9; */
+       
         
     }
     .footer-main{
         display: block !important;
-        
-        
-        /* background-color: #0093E9; */
-        
         overflow-x: hidden;
         
      }
@@ -913,7 +901,7 @@ h3, .fas{
      .end-footer{
          
          top: 55%;
-         height: 110vh;
+         height: 100vh;
          display: block;
          width: 100%;
          position: relative;
@@ -946,14 +934,13 @@ h3, .fas{
      } */
     
      .animate__backInDown{
+         position:relative;
          font-size: 1.5rem;
-         text-align: center;
-         margin-left: -60px;
-         
-         /* padding-left: 10px; */ 
-     }
+        
+      }
       .last-line{
          font-size: 10px;
+          margin-left: 25px;
      } 
      .home-btn{
          justify-content: center;
@@ -979,6 +966,9 @@ h3, .fas{
      
      .footer-left{
          width: 99%;
+     }
+     .hero-text{
+         margin-left: -20px !important;
      }
     
 
