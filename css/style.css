@@ -850,6 +850,9 @@ h3, .fas{
 @media all and (max-width: 480px) { 
     body{
         overflow-x: hidden !important;
+        margin:0;
+        padding:0;
+        box-sizing :border-box;
       }
     .header .sidemenu{
         width: 100%;
