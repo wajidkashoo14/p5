@@ -975,6 +975,9 @@ h3, .fas{
          margin-left: -90px !important;
      }
     
+    .sidemenu-toggler{
+         z-index: 999999 !important;
+}
 
     
 }
