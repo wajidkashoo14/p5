@@ -31,7 +31,6 @@ body{
     left: 46%;
     top: 10%;
     z-index: -1;
-    height: 100%;
     width: 50%;
     
 }
@@ -73,19 +72,12 @@ ul{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    z-index: 999999;
+    z-index: 9999;
 }
-.header .sticky{
-    width: 100%;
-    position: fixed;
-    background-color:yellowgreen;
-    box-shadow: 0 10px 10px -10px rgba(0 ,0, 0, 0.35);
-}
+
 .header .logo{
     margin: 0;
-    position: sticky;
-    
-}
+  }
 .header .logo a,
 .header .logo a img{
      display: block;
@@ -95,8 +87,7 @@ ul{
 .header .logo img{
     width: 125px;
     height: 125px;
-    position: ;
-}
+  }
 .header .menu ul{
     display: flex;
     z-index: 9999;
@@ -182,17 +173,17 @@ ul{
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #3bb78f;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     width: 40%;
     height: 100vh;
-    z-index: 999;
+    z-index: 99999999;
     padding: 4rem;
     color: #fff;
     transform: translate3d(100%, 0, 0);
     transition: transform 0.5s ease-in-out;
-    overflow: hidden;
+    overflow-x: hidden;
+    opacity: 1; 
 }
 .header .sidemenu.active{
     transform: translate3d(0,0,0);
@@ -267,7 +258,7 @@ ul{
     text-transform: uppercase;
     margin-right: 2rem;
     color: #fff !important;
-    /* position: relative; */
+    
     
 }
 .header .sidemenu footer .social a:after {    
@@ -286,7 +277,7 @@ ul{
     width: 100%; 
     left: 0; 
   }
-/* .header .sidemenu footer .social a::before{
+    .header .sidemenu footer .social a::before{
     content: "";
     position: absolute;
     width: 0;
@@ -301,41 +292,19 @@ ul{
     visibility: visible;
     width: 100%;
     color: #fff !important;
-} */
+} 
 .fab{
     font-size: 2rem;
     color: #fff;
     margin-right: 15px;
-    opacity: 0.8;
+    opacity: 1;
 }
 .fab:hover{
-    opacity: 1;
+    opacity: 0.8;
 }
 .social .social-icon{
       color: #fff !important;
 }
-
-
-
-
-
-/* @media (min-width:768px) {
-    .header .menu {
-        display: none;
-    }
-    .header .menu{
-        display: block
-    }
-    .image-grid{
-        /* width: 100%; */
-        
-    }
-    /* .cards{
-        width: 100%;
-        display: block
-        
-    } */
-} */
 
 
 .home-image{
@@ -364,17 +333,10 @@ ul{
     padding-left: 80px;
     margin-top: 80px;
     
-    
-    
-    
 }
 .last-line{
-    /* position: absolute; */
-    
-    margin-top: 1rem;
-    
-    
-    margin-left: 5.5rem;
+     margin-top: 1rem;
+     margin-left: 5.5rem;
     width: 100%;
     font-size: 18px;
     letter-spacing: 5px;
@@ -384,12 +346,11 @@ ul{
 }
 
 .home-btn{
-    /* position: absolute; */
+    
     font-size: 1.2rem;
     text-transform: uppercase;
     justify-content: center;
     margin-left: 16rem;
-    /* top: 70%; */
     margin-top: 6rem;
     padding :10px 25px;
     background-color: #22c8ff !important;
@@ -435,12 +396,13 @@ ul{
     cursor:pointer ;
 }
 .about{
-   
+    position: relative;
     margin-top: 18rem;
     margin-bottom: 5rem;
     padding: 3rem auto;
 }
 .second-page{
+    position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -496,7 +458,6 @@ p{
 }
 .about-text{
     text-align: justify;
-    /* display: inline-block; */
     line-height: 1.7rem;
 }
 
@@ -612,6 +573,11 @@ h3, .fas{
     align-items: center;
     
 }
+
+.crd-section .card:hover {
+  border: 1.5px solid #72bb60;
+}
+
 .crd-section .card .content{
     position: relative;
     display: flex;
@@ -635,7 +601,7 @@ h3, .fas{
    height: 150px;
    border-radius: 50%;
    overflow: hidden;
-   /* border: 10px solid rgba(0, 0,0,0.25);   */
+   
 }
 .crd-section .card .content .imgBx img{
     position: absolute;
@@ -675,7 +641,6 @@ h3, .fas{
     display: grid;
     height: 100vh;
     grid-template-columns: 40% 40%;
-    /* grid-template-rows: 1fr 1fr; */
     justify-content: center;
     grid-gap:30px;
     
@@ -774,7 +739,7 @@ h3, .fas{
 .footer-main .footer-right{
     position: relative;
     display: inline-block;
-    /* left: 10px; */
+    
 }
 .address-span{
     position: relative;
@@ -815,23 +780,20 @@ h3, .fas{
 
 
 .footer-main .footer-right .address-details li span{
-    /* left: 10px; */
+    
     position: relative;
     justify-content: center;
     color: black !important;
-    /* text-transform: uppercase; */
     font-family: 'poppins', sans-serif;
-    /* margin-bottom: 10px !important; */
     font-size: 16px;
     
-    /* margin-right: 10px; */
-}
+  }
+
 .footer-bottom{
     text-align: center;
     
     
-    
-}
+ }
 .footer-copyright{
     font-family: 'Shadows Into Light', cursive;
     font-weight: 300;
@@ -848,37 +810,33 @@ h3, .fas{
   
 }
 @media all and (max-width: 480px) { 
-    body{
-        overflow-x: hidden !important;
+    html,body{
+       
         margin:0;
         padding:0;
-        box-sizing :border-box;
-      }
-    .header .sidemenu{
-        width: 100%;
-        }
-    .home-image{
         
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 500px;
-        z-index:-1;
-    }
+      }
+    .header .sidemenu
+    {
+        width: 100%;
+        
+        }
+   
 
     .header .sidemenu nav a{
         font-size: 1rem;
     }
+    
     .header .logo img{
         height: 75px;
         width: 75px;
     }
   
     .crd-section{
-        
+        position: relative;
         display: block !important;
         justify-content: center;
-        height: 150vh;
+        height: auto;
        
         
     }
@@ -904,8 +862,8 @@ h3, .fas{
     }
      .end-footer{
          
-         top: 55%;
-         height: 100vh;
+         top: 60%;
+         height: 95vh;
          display: block;
          width: 100%;
          position: relative;
@@ -933,12 +891,10 @@ h3, .fas{
          margin-right: 8px;
          margin-left: 3px;
      }
-     /* .footer-main .footer-right .address-details{
-         margin-right: 15px;
-     } */
+    
     
      .animate__backInDown{
-         position:relative;
+         
          font-size: 1.5rem;
         
       }
@@ -955,29 +911,24 @@ h3, .fas{
      }
      .footer-main .footer-left .footer-text{
          text-align: center;
-         width: 98% !important;
          font-size: 14px;
      }
      .header .sidemenu-toggler{
-         width: 25px  0px;
-         padding: 0;
-         position: fixed;
-         z-index: 99999;
+        z-index: 99999 !important;
      }
-     .header .wrap{
-         width: 95%;
-     }
+    
+    .close {
+        cursor: pointer !important;
+        z-index: 9999999 !important;
+    }
+   
      
-     .footer-left{
-         width: 99%;
-     }
+     
      .hero-text{
          margin-left: -90px !important;
      }
     
-    .sidemenu-toggler{
-         z-index: 999999 !important;
-}
+   
 
     
 }
