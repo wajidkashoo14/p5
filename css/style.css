@@ -795,8 +795,9 @@ h3, .fas{
     
     
  }
+
 .footer-copyright{
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins', sans-serif !important;
     font-weight: 300;
     
 }
