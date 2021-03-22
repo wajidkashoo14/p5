@@ -862,6 +862,12 @@ h3, .fas{
         
       }
      
+    .last-line 
+    {
+    font-size: 10px;
+    margin-left: 30px;
+    }
+    
      .home-btn{
          justify-content: center;
          margin-top: 140px;
