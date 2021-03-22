@@ -183,7 +183,7 @@ ul{
     font-family: 'poppins', sans-serif;
     transform: translate3d(100%, 0, 0);
     transition: transform 0.5s ease-in-out;
-    overflow: hidden !important;
+    overflow-x: hidden !important;
     opacity: 1; 
 }
 .header .sidemenu.active{
@@ -235,7 +235,7 @@ ul{
 
 .header .sidemenu footer{
     position: absolute;
-    padding-top: 100px;
+    padding-top: 70px;
     font-size: 0.9em;
     text-transform: uppercase;
     bottom: 20px;
@@ -758,7 +758,7 @@ h3, .fas{
 
 .footer-copyright{
     font-family: 'poppins', sans-serif !important;
-    font-weight: 300;
+    font-weight: 400;
     
 }
 
@@ -782,7 +782,7 @@ h3, .fas{
     {
         width: 100%;
         padding: 16px;
-        overflow: hidden !important;
+        overflow-x: hidden !important;
         
         }
    
