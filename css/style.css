@@ -730,6 +730,10 @@ h3, .fas{
     left: 30px;
 }
 
+.last-line {
+    font-size: 10px;
+    margin-left: 30px;
+  }
 
 .address-span .sgr{
     margin-top: -10px;
