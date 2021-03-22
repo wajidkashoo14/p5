@@ -226,9 +226,10 @@ ul{
     
 }
 .header .sidemenu nav a{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #fff;
     text-transform: uppercase;
+    font-weight: 400;
     
 }
 
@@ -247,62 +248,17 @@ ul{
     color: #fff !important;
 }
 
-.header .sidemenu footer .social a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    transition: all 0.3s linear;
-    margin-bottom: 2px;
-    text-transform: uppercase;
-    margin-right: 2rem;
-    color: #fff !important;
-    
-    
-}
-.header .sidemenu footer .social a:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff !important;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  .header .sidemenu footer .social a:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
-    .header .sidemenu footer .social a::before{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0px;
-    left: 0;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out !important;
-    z-index: 999;
-}
-.header .sidemenu footer .social a:hover:before{
-    visibility: visible;
-    width: 100%;
-    color: #fff !important;
-} 
 .fab{
     font-size: 2rem;
     color: #fff;
     margin-right: 15px;
     opacity: 1;
 }
+
 .fab:hover{
     opacity: 0.8;
 }
+
 .social .social-icon{
       color: #fff !important;
 }
@@ -901,10 +857,7 @@ h3, .fas{
          font-size: 1.5rem;
         
       }
-      .last-line{
-         font-size: 10px;
-          margin-left: 25px;
-     } 
+     
      .home-btn{
          justify-content: center;
          margin-top: 140px;
