@@ -180,6 +180,7 @@ ul{
     z-index: 99999999;
     padding: 4rem;
     color: #fff;
+    font-family: 'poppins', sans-serif;
     transform: translate3d(100%, 0, 0);
     transition: transform 0.5s ease-in-out;
     overflow-x: hidden;
@@ -236,7 +237,7 @@ ul{
     padding-top: 100px;
     font-size: 0.9em;
     text-transform: uppercase;
-    bottom: 0;
+    bottom: 20px;
 }
 
 .header .sidemenu footer .social{
