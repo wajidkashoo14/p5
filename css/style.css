@@ -178,12 +178,12 @@ ul{
     width: 40%;
     height: 100vh;
     z-index: 99999999;
-    padding: 10px;
+    padding: 16px;
     color: #fff;
     font-family: 'poppins', sans-serif;
     transform: translate3d(100%, 0, 0);
     transition: transform 0.5s ease-in-out;
-    overflow: hidden;
+    overflow: hidden !important;
     opacity: 1; 
 }
 .header .sidemenu.active{
@@ -781,7 +781,7 @@ h3, .fas{
     .header .sidemenu
     {
         width: 100%;
-        padding: 10px;
+        padding: 16px;
         overflow: hidden !important;
         
         }
