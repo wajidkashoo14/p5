@@ -142,9 +142,9 @@ ul{
 .header .sidemenu-toggler{
     position: absolute;
     width: 40px;
-    padding: 6px;
+    padding: 3px;
     top: 40px;
-    right: 20px;
+    right: 30px;
     position: fixed;
 }
 .header .sidemenu-toggler > span{
