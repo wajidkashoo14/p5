@@ -782,6 +782,7 @@ h3, .fas{
     {
         width: 100%;
         padding: 2rem;
+        overflow: hidden;
         
         }
    
