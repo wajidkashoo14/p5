@@ -144,7 +144,7 @@ ul{
     width: 40px;
     padding: 3px;
     top: 40px;
-    right: 30px;
+    right: 20px;
     position: fixed;
 }
 .header .sidemenu-toggler > span{
@@ -821,7 +821,7 @@ h3, .fas{
     .header .sidemenu
     {
         width: 100%;
-        padding: 0;
+        padding: 4rem;
         
         }
    
