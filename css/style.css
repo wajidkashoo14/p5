@@ -255,13 +255,19 @@ ul{
     opacity: 1;
 }
 
-.fab:hover{
-    opacity: 0.8;
-}
+
 
 .social .social-icon{
       color: #fff !important;
 }
+
+.header .sidemenu footer .social p{
+    color: #fff !important;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif !important;
+}
+    
+    
 
 
 .home-image{
