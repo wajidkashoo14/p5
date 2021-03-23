@@ -144,7 +144,7 @@ ul{
     width: 40px;
     padding: 6px;
     top: 40px;
-    right: 30px;
+    right: 40px;
     position: fixed;
 }
 .header .sidemenu-toggler > span{
@@ -772,12 +772,15 @@ h3, .fas{
   
 }
 @media all and (max-width: 480px) { 
-    html,body,*{
+    *{
        
         margin:0;
         padding:0;
         
       }
+    html,body,{
+        overflow-x:hidden !important;
+    }
     .header .sidemenu
     {
         width: 100%;
